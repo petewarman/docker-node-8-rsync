@@ -1,4 +1,4 @@
-FROM node:8.9
+FROM node:8.11.3
 RUN apt-get update && \
     apt-get -y install rsync apt-utils && \
     apt-get -y remove apt-utils && \
